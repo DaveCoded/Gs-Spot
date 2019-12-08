@@ -47,6 +47,7 @@
             );
             wp_list_pages( $page_args );
           ?>
+					<a href="https://www.iubenda.com/privacy-policy/45338662" class="page_item" title="Privacy Policy" id="privacy-policy">Privacy Policy</a> <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
         </ul>
       </div>
       <?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
@@ -58,7 +59,7 @@
       <span class="header__title--tagline"><?php echo get_bloginfo( 'description' ); ?></span>
     </div>
     <div class="season-display">
-      <h2 class="season-display__number">season one -</h2>
-      <span class="season-display__title">wtf is going on</span>
+      <h2 class="season-display__number">season two</h2>
+      <span class="season-display__title">sex after</span>
     </div>
   </header>
