@@ -28,11 +28,20 @@
       </a>
       <div class="list-container">
         <ol class="seasons">
-          <li class="seasons__item">Season One</li>
+          <li class="seasons__item"><a href="http://localhost/update-gs-spot/season-one/">Season One</a></li>
+          <li class="seasons__item"><a href="http://localhost/update-gs-spot/season-two/">Season Two</a></li>
         </ol>
         <ul class="pages-list">
           <li class="page_item"><a href="<?php echo home_url(); ?>">Home</a></li>
-          <?php wp_list_pages( '&title_li=' ); ?>
+          <?php 
+            $page_args = array(
+              'exclude'      => '480, 475',
+              'title_li'     => '',
+              'post_type'    => 'page',
+              'post_status'  => 'publish' 
+            );
+            wp_list_pages( $page_args );
+          ?>
         </ul>
       </div>
       <?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
