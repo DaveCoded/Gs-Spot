@@ -23,17 +23,17 @@ Version: 0.0.1
 
 @font-face {
   font-family: leafy;
-  src: url("fonts/leafy.woff") format("woff");
+  src: url('fonts/leafy.woff') format('woff');
 }
 
 @font-face {
   font-family: futura-light;
-  src: url("fonts/FuturaBTLight.ttf") format("truetype");
+  src: url('fonts/FuturaBTLight.ttf') format('truetype');
 }
 
 @font-face {
   font-family: bodoni;
-  src: url("fonts/BodoniBTBook.ttf") format("truetype");
+  src: url('fonts/BodoniBTBook.ttf') format('truetype');
 }
 
 *,
@@ -99,7 +99,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   padding: 0.7rem 7.7rem 1.2rem;
-  background-image: url("img/header-strip.jpg");
+  background-image: url('img/header-strip.jpg');
   -webkit-box-shadow: 0 0.48rem 3.2rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.48rem 3.2rem rgba(0, 0, 0, 0.1);
   z-index: 2000;
@@ -140,7 +140,7 @@ body {
 .header__title--heading {
   margin-bottom: 0.7rem;
   margin-top: 0.5rem;
-  font-family: "leafy";
+  font-family: 'leafy';
   font-size: 4.7rem;
   font-weight: 400;
   letter-spacing: 0.6rem;
@@ -154,7 +154,7 @@ body {
 }
 
 .header__title--tagline {
-  font-family: "futura-light";
+  font-family: 'futura-light';
   letter-spacing: 0.16rem;
   font-size: 1.44rem;
 }
@@ -166,7 +166,7 @@ body {
 }
 
 .season-display {
-  font-family: "leafy";
+  font-family: 'leafy';
   font-size: 2rem;
   letter-spacing: 0.16rem;
   color: var(--purple);
@@ -275,7 +275,7 @@ body {
   background: none;
   border: none;
   font-size: 3.5rem;
-  font-family: "futura-light";
+  font-family: 'futura-light';
   font-weight: 600;
   color: var(--purple);
   -webkit-transition: all 0.2s;
@@ -314,15 +314,13 @@ body {
 
 .seasons {
   list-style: none;
-  margin-top: 4rem;
   line-height: 5.6rem;
 }
 
 .seasons__item {
-  margin-top: -1.6rem;
   text-align: center;
   color: var(--purple);
-  font-family: "leafy";
+  font-family: 'leafy';
   font-size: 4.4rem;
   font-weight: 400;
   letter-spacing: 0.6rem;
@@ -333,7 +331,7 @@ body {
 }
 
 .page_item {
-  font-family: "futura-light";
+  font-family: 'futura-light';
   color: var(--pink);
   letter-spacing: 0.5rem;
   font-size: 2.5rem;
@@ -357,7 +355,7 @@ a:-webkit-any-link {
 
 .copyright {
   text-align: center;
-  font-family: "bodoni";
+  font-family: 'bodoni';
   font-size: 1.7rem;
   color: #777;
 }
@@ -370,7 +368,7 @@ a:-webkit-any-link {
   min-height: 100vh;
   padding-top: 10rem;
   padding-bottom: 5rem;
-  background-image: url("img/home-background-SMALL.jpg");
+  background-image: url('img/home-background-SMALL.jpg');
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -574,7 +572,7 @@ a:-webkit-any-link {
 }
 
 .image-caption__title {
-  font-family: "leafy";
+  font-family: 'leafy';
   font-size: 4rem;
   font-weight: 400;
   letter-spacing: 0.5rem;
@@ -600,7 +598,7 @@ a:-webkit-any-link {
 }
 
 .image-caption__box p {
-  font-family: "futura-light";
+  font-family: 'futura-light';
   font-size: 1.5rem;
   font-weight: 300;
   letter-spacing: 0.16rem;
@@ -799,7 +797,7 @@ article.secondary-article:hover {
 }
 
 .secondary-article__heading {
-  font-family: "leafy";
+  font-family: 'leafy';
   font-size: 4rem;
   font-weight: 400;
   letter-spacing: 0.18rem;
@@ -837,7 +835,7 @@ article.secondary-article:hover {
 }
 
 .secondary-article__content p {
-  font-family: "futura-light";
+  font-family: 'futura-light';
   font-size: 1.7rem;
   font-weight: 300;
   letter-spacing: 0.16rem;
@@ -909,7 +907,7 @@ article.secondary-article:hover {
 }
 
 .header-single__season-display {
-  font-family: "leafy";
+  font-family: 'leafy';
   font-size: 2rem;
   letter-spacing: 0.16rem;
   color: var(--crimson);
@@ -928,7 +926,7 @@ article.secondary-article:hover {
 ================================================= */
 
 .single-post__background {
-  background-image: url("img/post-background.jpg");
+  background-image: url('img/post-background.jpg');
   background-size: cover;
   min-height: 100vh;
   width: 100%;
@@ -941,7 +939,7 @@ article.secondary-article:hover {
 .post-title {
   margin-top: 14rem;
   text-align: center;
-  font-family: "leafy";
+  font-family: 'leafy';
   font-size: 6.2rem;
   letter-spacing: 0.5rem;
   font-weight: 300;
@@ -990,7 +988,7 @@ article.secondary-article:hover {
 .single-post__content {
   width: 80%;
   margin: 7rem auto;
-  font-family: "futura-light";
+  font-family: 'futura-light';
   font-size: 2.2rem;
   line-height: 3.5rem;
   color: #444;
@@ -1011,7 +1009,7 @@ article.secondary-article:hover {
 .single-post__content > blockquote {
   margin: 6rem auto;
   width: 50%;
-  font-family: "bodoni";
+  font-family: 'bodoni';
   font-size: 3.8rem;
   text-align: center;
   padding: 5rem 0;
@@ -1052,8 +1050,8 @@ blockquote p {
       rgba(212, 71, 82, 0.2),
       rgba(212, 71, 82, 0.2)
     ),
-    url("img/post-background.jpg");
-  font-family: "futura-light";
+    url('img/post-background.jpg');
+  font-family: 'futura-light';
   font-size: 2.2rem;
   line-height: 3rem;
   list-style-position: inside;
@@ -1162,7 +1160,7 @@ blockquote p {
 
 #wpforms-111 label,
 #wpforms-111 input {
-  font-family: "futura-light";
+  font-family: 'futura-light';
   font-weight: 400;
   font-size: 2.2rem;
 }
@@ -1180,7 +1178,7 @@ blockquote p {
   background-color: var(--purple);
   color: mintcream;
   border-radius: 4px;
-  font-family: "futura-light";
+  font-family: 'futura-light';
   padding: 0.6rem 2.5rem;
   margin-top: 1rem;
   transition: all 0.2s;
@@ -1225,9 +1223,9 @@ a#privacy-policy {
 }
 
 .pagination {
-  font-family: "Futura-light";
+  font-family: 'Futura-light';
   font-size: 2.5rem;
-  color: #e6c719;
+  color: var(--purple);
 }
 
 .pagination__older-posts {
